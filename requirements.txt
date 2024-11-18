@@ -44,6 +44,7 @@ huggingface-hub==0.26.2
 idna==3.10
 ipykernel==6.29.5
 ipython==8.29.0
+ipython-genutils==0.2.0
 isoduration==20.11.0
 jedi==0.19.1
 jinja2==3.1.4
@@ -55,15 +56,18 @@ jsonschema-specifications==2024.10.1
 jupyter-client==8.6.3
 jupyter-core==5.7.2
 jupyter-events==0.10.0
+jupyter-highlight-selected-word==0.2.0
 jupyter-lsp==2.2.5
+jupyter-nbextensions-configurator==0.6.4
 jupyter-server==2.14.2
 jupyter-server-terminals==0.5.3
-jupyterlab==4.3.0
+jupyterlab==4.2.6
 jupyterlab-pygments==0.3.0
 jupyterlab-server==2.27.3
 ko-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/ko_core_news_sm-3.8.0/ko_core_news_sm-3.8.0-py3-none-any.whl
 langcodes==3.4.1
 language-data==1.2.0
+lxml==5.3.0
 marisa-trie==1.2.1
 markdown-it-py==3.0.0
 markupsafe==3.0.2
@@ -75,10 +79,11 @@ multidict==6.1.0
 multiprocess==0.70.16
 murmurhash==1.0.10
 nbclient==0.10.0
-nbconvert==7.16.4
 nbformat==5.10.4
+nbmerge==0.0.4
 nest-asyncio==1.6.0
 networkx==3.4.2
+notebook==7.2.2
 notebook-shim==0.2.4
 numpy==2.0.2
 openpyxl==3.1.5
@@ -103,6 +108,7 @@ pycparser==2.22
 pydantic==2.9.2
 pydantic-core==2.23.4
 pygments==2.18.0
+python-calamine==0.3.1
 python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
 pytz==2024.2
