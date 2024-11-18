@@ -36,9 +36,9 @@ train.parquet test.parquet validation.parquet
 
 ```
 # we intend to shrink the train data size because of long training time
-train data size: 640967
-test data size: 288436
-validation data size: 673015
+train data size: 320483
+test data size: 64097
+validation data size: 1217838
 ```
 
 **We don't use validation data in this codebase**
