@@ -1,9 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,python
-.DB_Store
+*/.DB_Store
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
+models/
 data/
 preprocessed/
 .ipynb_checkpoints
