@@ -11,7 +11,7 @@ Please read the following paper before understanding the codebase.
 2. Basic skill of Python
 
 3. GPU(CUDA, Apple Metal) with VRAM 15GB
-(You can change configuration if you don't have enough VRAM. ex. changing n_head 8 -> 6, batch_size 128 -> 64 etc)
+(You can change configuration if you don't have enough VRAM. ex. changing d_model 1200 -> 400, batch_size 128 -> 64 etc)
 
 4. [uv-python](https://github.com/astral-sh/uv) installed in runtime(just for faster package installation)
 
