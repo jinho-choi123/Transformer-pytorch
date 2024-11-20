@@ -19,7 +19,7 @@ Please read the following paper before understanding the codebase.
 We are going to use korean-english pair data from AI-Hub.
 [here](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=126)
 
-1. Create "data/" directory and "preprocessed/" directory
+1. Create "data/" directory.
 
 2. Put all downloaded excel files into data directory
 ```
@@ -28,17 +28,17 @@ $ ls <project_root>/data/
 data1.xlsx data2.xlsx data3.xlsx
 ```
 
-3. extract data using **data-prepare.ipynb** script. If you run the script, then datasets(train.parquet, test.parquet, validation.parquet) will be generated at "preprocessed/" directory
+3. extract data using **src/data-prepare.ipynb** script. If you run the script, then datasets(train.parquet, test.parquet, validation.parquet) will be generated at "preprocessed/" directory
 ```shell
 $ ls <project_root>/preprocessed/
 train.parquet test.parquet validation.parquet
 ```
 
 ```
-# we intend to shrink the train data size because of long training time
-train data size: 320483
-test data size: 64097
-validation data size: 1217838
+# we intend to shrink the train data size to shorten the training time
+train data size: 96145
+test data size: 15063
+validation data size: 1491210
 ```
 
 **We don't use validation data in this codebase**
@@ -58,7 +58,9 @@ $ uv pip install -r requirments.txt
 ```shell
 $ jupyter lab
 ```
-4. Go to train.ipynb, and run all cells. train.ipynb imports other module notebooks, so just running train.ipynb is enough.
+4. Go to src/Train.ipynb, and run all cells. src/Train.ipynb imports other module notebooks, so just running src/Train.ipynb is enough.
+
+**If you want to change the parameters of training(lr, n_head, d_model etc), change it from config/config.ipynb.**
 
 ## Getting Started - Google Colab
 
