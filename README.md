@@ -62,9 +62,12 @@ $ jupyter lab
 
 **If you want to change the parameters of training(lr, n_head, d_model etc), change it from config/config.ipynb.**
 
-## Getting Started - Google Colab
+## Getting Started - Google Colab, Kaggle
+Use tools like nbmerge to concatenate module files into a single notebook.
 
-## Getting Started - Kaggle
-1. Upload dataset to kaggle
-2. Use accelerator P100
-2. Run kaggle/kaggle.ipynb 
+## Getting Started - Inferencing
+Since Inference doesn't require large GPU resource, you can do it in your local machine.
+
+1. Go to src/Inference.ipynb, and load the model
+2. run the inference function. This will visualize the attention map and return the translated sentence.
+
